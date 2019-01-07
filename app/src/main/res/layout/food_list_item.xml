@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <ImageView
+            android:layout_width="@dimen/food_image_height"
+            android:layout_height="@dimen/food_image_height"
+            app:srcCompat="@mipmap/food3"
+            android:id="@+id/foodImageIv"
+            android:layout_marginTop="@dimen/default_margin"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="@dimen/default_margin"
+            android:layout_marginBottom="@dimen/default_margin"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+    <TextView
+            android:text="食物名称"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/foodNameTv"
+            app:layout_constraintStart_toEndOf="@+id/foodImageIv"
+            android:layout_marginStart="@dimen/default_margin"
+            android:layout_marginTop="@dimen/default_margin"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/sp_16"/>
+    <TextView
+            android:text="月售2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/salesTv"
+            app:layout_constraintTop_toBottomOf="@+id/foodNameTv"
+            app:layout_constraintStart_toEndOf="@+id/foodImageIv"
+            android:layout_marginStart="@dimen/default_margin"
+            android:textSize="8sp"/>
+    <TextView
+            android:text="$8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/priceTv"
+            app:layout_constraintStart_toEndOf="@+id/foodImageIv"
+            android:layout_marginStart="@dimen/default_margin"
+            android:layout_marginBottom="@dimen/default_margin"
+            app:layout_constraintBottom_toBottomOf="@+id/foodImageIv"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/sp_16"
+            android:textStyle="bold"/>
+    <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:srcCompat="@mipmap/add"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="@dimen/default_margin"
+            android:layout_marginBottom="@dimen/default_margin"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:scaleType="centerCrop"/>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorTabBg">#FFFFFF</color>
+    <color name="colorTabIndicator">#2437e6</color>
+    <color name="colorBlack">#FF000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGray">#bfbbbb</color>
+    <color name="colorSearchFrame">#c9c8c7</color>
+    <color name="colorTipsTitleBgPink">#e4bee3</color>
+    <color name="colorTipsTitleTextPink">#b763b5</color>
+    <color name="colorBottomTopLayoutBg">#faf3c6</color>
+    <color name="colorBottomPriceLimitBg">#292828</color>
+    <color name="colorBottomTextColor">#dad5d5</color>
+    <color name="colorCategoryItemNormal">#eae8e8</color>
+</resources>

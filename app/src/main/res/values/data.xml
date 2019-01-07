@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <array name="tab_names">
+        <item>"点餐"</item>
+        <item>"评价999+"</item>
+        <item>"商家"</item>
+    </array>
+
+</resources>

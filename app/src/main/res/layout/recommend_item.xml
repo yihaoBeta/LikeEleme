@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="@color/colorWhite"
+        app:cardCornerRadius="@dimen/dp_4"
+        android:layout_margin="@dimen/dp_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <android.support.constraint.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <ImageView android:layout_width="@dimen/food_image_height"
+                   android:id="@+id/recommendIv"
+                   android:src="@mipmap/avatar"
+                   app:layout_constraintTop_toTopOf="parent"
+                   app:layout_constraintLeft_toLeftOf="parent"
+                   app:layout_constraintRight_toRightOf="parent"
+                   android:scaleType="centerCrop"
+                   android:layout_height="@dimen/food_image_height"/>
+
+        <TextView android:id="@+id/recommendName"
+                  android:textSize="@dimen/sp_12"
+                  android:text="test"
+                  android:textColor="@color/colorBlack"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  app:layout_constraintLeft_toLeftOf="parent"
+                  app:layout_constraintTop_toBottomOf="@+id/recommendIv"
+                  app:layout_constraintStart_toStartOf="@+id/recommendIv"
+                  android:layout_marginTop="@dimen/default_margin" />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/salesTv"
+                android:text="test"
+                app:layout_constraintStart_toStartOf="@+id/recommendName"
+                app:layout_constraintTop_toBottomOf="@+id/recommendName"
+                android:textSize="@dimen/sp_12"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/priceTv"
+                android:text="test"
+                android:textColor="@color/colorAccent"
+                app:layout_constraintTop_toBottomOf="@+id/salesTv"
+                android:textSize="@dimen/sp_16"
+                app:layout_constraintStart_toStartOf="@+id/salesTv"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginBottom="@dimen/default_margin"/>
+        <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                app:srcCompat="@mipmap/add"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="@dimen/default_margin"
+                android:layout_marginBottom="@dimen/default_margin"/>
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+>
+    <android.support.design.widget.TabLayout
+            android:layout_width="match_parent"
+            android:id="@+id/foodTabLayout"
+            android:layout_height="@dimen/tab_layout_height"
+            android:background="@color/colorTabBg"
+            app:tabGravity="center"
+            app:tabMinWidth="@dimen/tab_min_width"
+            app:tabIndicatorFullWidth="false"
+            app:tabIndicatorHeight="@dimen/tab_indicator_height"
+            app:tabIndicatorColor="@color/colorTabIndicator"
+            app:tabSelectedTextColor="@color/colorBlack"
+    >
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+            android:fillViewport="true"
+            android:id="@+id/foodViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/foodListRootLayout"
+        android:fillViewport="true"
+        android:descendantFocusability="blocksDescendants"
+        android:background="@color/colorWhite"
+        android:orientation="vertical">
+<TextView android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/recommendTv"
+          android:text="@string/recommend_title"
+          android:textSize="@dimen/sp_14"
+          android:textStyle="bold"
+/>
+    <android.support.v7.widget.RecyclerView
+            android:id="@+id/recommendRv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+    <LinearLayout android:layout_width="match_parent"
+                  android:orientation="horizontal"
+                  android:layout_marginTop="@dimen/default_margin"
+                  android:fillViewport="true"
+                  android:descendantFocusability="blocksDescendants"
+                  android:layout_height="wrap_content">
+        <android.support.v7.widget.RecyclerView
+                android:id="@+id/categoryRv"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="wrap_content"
+        />
+        <android.support.v7.widget.RecyclerView
+                android:id="@+id/foodListRv"
+                android:layout_width="0dp"
+                android:layout_weight="8"
+                android:layout_height="wrap_content"
+        >
+        </android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+</LinearLayout>

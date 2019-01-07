@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">likeeleme</string>
+    <string name="shopinfo_cut_title">满减</string>
+    <string name="shopinfo_cut_content">满25减5，满35减10</string>
+    <string name="shopinfo_post_title">公告</string>
+    <string name="shopinfo_post_content">本店原料：面包片，油，鸡肉，新鲜蔬菜，新鲜海鲜等</string>
+    <string name="shopinfo_cut_nums">3个优惠</string>
+    <string name="shopinfo_shop_title">麦当劳（XXXXX店）</string>
+    <string name="shopinfo_tips_content">评价4.7 月售342 蜂鸟专送约32分钟</string>
+    <string name="shop_info_offer_title">优惠</string>
+    <string name="shopinfo_offer_content">满25减5，满35减10</string>
+    <string name="shopinfo_tips2_title">特价</string>
+    <string name="shopinfo_tips2_content">特价商品9.9元起</string>
+    <string name="shopinfo_tips3_title">首单</string>
+    <string name="shopinfo_tips3_content">新用户下单立减15元(不与其他活动同享)</string>
+    <string name="search_hint">想吃什么搜一搜</string>
+    <string name="recommend_title">商家推荐</string>
+    <string name="bottom_view_cut">满20减6元</string>
+    <string name="bottom_view_price_limit">￥15元起送</string>
+    <string name="bottom_view_tips1">未选购商品</string>
+    <string name="bottom_view_tips2">另需配送费3元</string>
+</resources>
